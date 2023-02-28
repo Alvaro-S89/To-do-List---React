@@ -1,6 +1,6 @@
 import React from 'react'
 import ToDo from '../ToDo/ToDo'
-import ToDoFilter from '../ToDoFilter/ToDoFilter'
+import { ToDoFilter } from '../ToDoFilter'
 
 const ToDoList = ({ todos, handleSetComplete, handleDelete, activeFilter, handleClearComplete, showAllTodos, showActiveTodos, showCompletedTodos}) => {
   return (
